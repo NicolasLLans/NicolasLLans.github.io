@@ -1,0 +1,45 @@
+.avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      background-color: aliceblue;
+      overflow: visible;
+      display: grid;
+      place-items: center;
+}
+img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px
+}
+ul{
+      margin: 0px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+@media (max-width:800px) {
+      .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: aliceblue;
+            overflow: visible;
+            display: grid;
+            place-items: center;
+      }
+      img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px
+      }
+      ul{
+            margin: 10px;
+            display: flex;
+            padding: 5px;
+            align-items: center;
+            flex-direction: row;
+      }
+}

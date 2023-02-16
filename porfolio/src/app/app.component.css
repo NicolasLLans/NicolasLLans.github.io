@@ -7,15 +7,17 @@
 }
 
 .sidebar {
-      width: 25%;
+      width: 20%;
       background-color: #f1f1f1;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
+
       /* altura total de la ventana del navegador */
 }
-.barra-nav{
+
+.barra-nav {
       background-color: #acacac;
       width: 90%;
       height: 95%;
@@ -23,23 +25,35 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: visible;
+}
+
+app-barranav {
+      height: 80%;
+      width: 85%;
+      display: grid;
+      place-content: center;
+      align-content: space-between;
 }
 
 .main-content {
-      width: 75%;
+      width: 80%;
       height: 100vh;
       background-color: #e9e9e9;
       display: flex;
       justify-content: center;
       align-items: center;
 }
-.cuerpo{
+
+.cuerpo {
       height: 95%;
-      width: 90%;
+      width: 95%;
       background-color: #acacac;
       display: grid;
       place-items: center;
       border-radius: 12px;
+      align-content: center;
+      justify-content: center;
 }
 
 @media (max-width:800px) {
@@ -48,9 +62,9 @@
             flex-direction: column;
             width: 100%;
       }
-      
+
       .sidebar {
-           
+
             width: 100%;
             background-color: #f1f1f1;
             height: 10vh;
@@ -58,11 +72,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: visible;
             /* altura total de la ventana del navegador */
       }
-      
+
       .main-content {
-            
+
             width: 100%;
             height: 90vh;
             background-color: #e9e9e9;
@@ -71,23 +86,32 @@
             justify-content: center;
             align-items: center;
       }
-      .cuerpo{
+
+      .cuerpo {
             height: 95%;
-            width: 90%;
+            width: 95%;
             background-color: #acacac;
             display: grid;
             place-items: center;
             border-radius: 12px;
+            align-content: center;
+            justify-content: center;
       }
-      .barra-nav{
+
+      .barra-nav {
             background-color: #acacac;
-            width: 90%;
+            width: 95%;
             height: 95%;
             border-radius: 12px;
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: visible;
+      }
+
+      app-barranav {
+            display: flex;
       }
 }
-/*estructura arriba*/
 
+/*estructura responsive arriba*/
