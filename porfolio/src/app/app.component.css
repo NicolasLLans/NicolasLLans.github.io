@@ -1,0 +1,93 @@
+.container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+}
+
+.sidebar {
+      width: 25%;
+      background-color: #f1f1f1;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* altura total de la ventana del navegador */
+}
+.barra-nav{
+      background-color: #acacac;
+      width: 90%;
+      height: 95%;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.main-content {
+      width: 75%;
+      height: 100vh;
+      background-color: #e9e9e9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.cuerpo{
+      height: 95%;
+      width: 90%;
+      background-color: #acacac;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+}
+
+@media (max-width:800px) {
+      .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+      }
+      
+      .sidebar {
+           
+            width: 100%;
+            background-color: #f1f1f1;
+            height: 10vh;
+            order: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* altura total de la ventana del navegador */
+      }
+      
+      .main-content {
+            
+            width: 100%;
+            height: 90vh;
+            background-color: #e9e9e9;
+            order: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+      .cuerpo{
+            height: 95%;
+            width: 90%;
+            background-color: #acacac;
+            display: grid;
+            place-items: center;
+            border-radius: 12px;
+      }
+      .barra-nav{
+            background-color: #acacac;
+            width: 90%;
+            height: 95%;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+}
+/*estructura arriba*/
+
