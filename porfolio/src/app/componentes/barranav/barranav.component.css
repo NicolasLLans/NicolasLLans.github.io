@@ -20,8 +20,9 @@ ul {
       height: 350px;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: start;
       justify-content: center;
+      
 }
 
 li {
@@ -60,5 +61,10 @@ i{
             padding: 5px;
             align-items: center;
             flex-direction: row;
+      }
+}
+@media (max-width:965px) {
+      a{
+            display: none;
       }
 }
