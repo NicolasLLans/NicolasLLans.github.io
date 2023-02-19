@@ -24,7 +24,7 @@ li{
 }
 .card{
       background-color: rgb(94, 94, 146);
-      background-image: url(https://th.bing.com/th/id/R.4af44f7f9b0edb1030c7810cf5b7d109?rik=TDzcTKI3FJhFPg&pid=ImgRaw&r=0&sres=1&sresct=1);
+      background-image: url(https://th.bing.com/th/id/OIP.hsbt_mc9UeZDNQd7fCu6twHaEm?pid=ImgDet&rs=1);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -35,6 +35,8 @@ li{
       justify-content: center;
       text-align: center;
       height: 100%;
+      cursor: pointer;
+      box-shadow: #464646 1px 2px 10px;
 }
 .capa-de-fondo{
       display: flex;
@@ -45,12 +47,12 @@ li{
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      border: 2px solid #464646;
+      border: 1px solid #464646;
 
 }
 .capa-de-fondo:hover{
       background-color: rgba(0, 0, 0, 0.2);
-      border: 2px solid #e0fffb;
+      border: 1px solid #e0fffb;
 }
 @media (max-width:500px) {
       .cont-general{
