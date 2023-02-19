@@ -54,12 +54,12 @@ app-barranav {
 
 .cuerpo {
       height: 95%;
-      width: 95%;
+      width: 100%;
       background-color: #acacac;
       display: grid;
       place-items: center;
       border-radius: 12px;
-      align-content: center;
+      
       justify-content: center;
       overflow: overlay;
 }
@@ -103,7 +103,6 @@ app-barranav {
             display: grid;
             place-items: center;
             border-radius: 12px;
-            align-content: center;
             justify-content: center;
             overflow: overlay;
       }
