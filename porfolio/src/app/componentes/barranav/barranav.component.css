@@ -6,12 +6,14 @@
       overflow: visible;
       display: grid;
       place-items: center;
+      box-shadow:1px 1px 10px rgb(255, 201, 119);
 }
 
 img {
       width: 100px;
       height: 100px;
-      border-radius: 50px
+      border-radius: 50px;
+      border: 1px solid white;
 }
 
 ul {
@@ -30,23 +32,32 @@ li {
       margin: 1rem 0.2em;
       font-size: 12px;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: start;
       font-weight: 400;
+      cursor: pointer;
+      padding: 4px;
+
       
+}
+li:hover{
+      border-left:2px solid rgba(255, 201, 119, 0.705);
+      padding: 4px;
+      border-radius: 5px 0 0 5px;
 }
 a{
       text-decoration: none;
+      color: rgb(255, 201, 119);
 }
 i{
       margin: 0.2em 0.5em;
+      color: rgb(255, 201, 119);
 }
 
 @media (max-width:800px) {
       .avatar {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 50px;
             background-color: aliceblue;
             overflow: visible;
@@ -55,8 +66,8 @@ i{
       }
 
       img {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 50px
       }
 
@@ -67,6 +78,12 @@ i{
             padding: 5px;
             align-items: center;
             flex-direction: row;
+      }
+      li:hover{
+            border-left:0;
+            border-bottom:2px solid rgba(255, 201, 119, 0.705);
+            padding: 4px;
+            border-radius: 0 0 5px 5px;
       }
 }
 @media (max-width:965px) {
