@@ -64,6 +64,9 @@ app-barranav {
       overflow: overlay;
       box-shadow: inset 1px 1px 5px rgb(255 201 119);
   }
+  .cuerpo::-webkit-scrollbar {
+      width: 0; /* Ancho de la barra de desplazamiento */
+    }
   
   
 @media (max-width:800px) {
@@ -101,13 +104,16 @@ app-barranav {
       .cuerpo {
             height: 95%;
             width: 95%;
-            background-color: #acacac;
+            background-color: #1e1d1f;
             display: grid;
             place-items: center;
             border-radius: 12px;
             justify-content: center;
             overflow: overlay;
       }
+      .cuerpo::-webkit-scrollbar {
+            width: 0; /* Ancho de la barra de desplazamiento */
+          }
 
       .barra-nav {
             background-color: #1a1a22;

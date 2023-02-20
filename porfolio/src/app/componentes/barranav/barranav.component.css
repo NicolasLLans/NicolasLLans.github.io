@@ -17,14 +17,14 @@ img {
 }
 
 ul {
-      margin: 0px;
-      padding: 15px;
+      margin: 50% 0 0 0;
+      padding: 1%;
       height: 350px;
       display: flex;
       flex-direction: column;
       align-items: start;
       justify-content: center;
-      
+      border-top: 1px solid rgb(255, 201, 119);
 }
 
 li {
@@ -43,7 +43,7 @@ li {
 li:hover{
       border-left:2px solid rgba(255, 201, 119, 0.705);
       padding: 4px;
-      border-radius: 5px 0 0 5px;
+      
 }
 a{
       text-decoration: none;
@@ -72,18 +72,21 @@ i{
       }
 
       ul {
-            margin: 10px;
+            margin: 10px 10%;
             display: flex;
-            height: auto;
-            padding: 5px;
+            height: 50%;
+            padding: 5px 20px;
             align-items: center;
             flex-direction: row;
+            border-left: 1px solid rgb(255, 201, 119);
+            border-top: none;
+
       }
       li:hover{
             border-left:0;
             border-bottom:2px solid rgba(255, 201, 119, 0.705);
             padding: 4px;
-            border-radius: 0 0 5px 5px;
+            
       }
 }
 @media (max-width:965px) {

@@ -1,6 +1,6 @@
 .cont-general {
       display: flex;
-      margin-right: 3%;
+      
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 }
 
 .contenedor {
-      background-color: aqua;
+      /*background-color: aqua;*/
       border-radius: 12px;
       width: 100%;
       height: auto;
@@ -23,15 +23,15 @@ h1 {
 li {
       width: 93%;
       height: 250px;
-      background-color: antiquewhite;
-      margin: 1%;
-      padding: 3%;
+      /*background-color: antiquewhite;*/
+      margin: auto;
+      padding: 1%;
       border-radius: 12px;
       list-style: none;
 }
 
 .card {
-      background-color: rgb(94, 94, 146);
+      /*background-color: rgb(94, 94, 146);*/
       background-image: url(https://th.bing.com/th/id/OIP.hsbt_mc9UeZDNQd7fCu6twHaEm?pid=ImgDet&rs=1);
       background-repeat: no-repeat;
       background-size: cover;
@@ -131,18 +131,18 @@ i {
       .cont-general {
             display: flex;
             flex-direction: column;
-            margin-right: 2%;
+            
       }
 
       .card {
-            background-color: rgb(94, 94, 146);
+            /*background-color: rgb(94, 94, 146);*/
             color: antiquewhite;
             border-radius: 12px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            width: 95%;
+            width: 100%;
       }
 
       .card-titulo {
@@ -150,6 +150,7 @@ i {
             border: 1px solid #e2e2e2;
             background-image: none;
             cursor: none;
+            width: 100%;
       }
 
       h1 {
