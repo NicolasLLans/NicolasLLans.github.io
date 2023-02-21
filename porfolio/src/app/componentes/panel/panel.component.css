@@ -5,7 +5,8 @@
 }
 
 .side-bar {
-      width: 45%;
+      width: 35%;
+      margin: 2% 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -25,8 +26,8 @@
 
 .panelgeneral {
       display: flex;
-      align-items: center;
-      justify-content: start;
+      align-items: flex-start;
+      justify-content: center;
       flex-direction: row;
       width: 100%;
       height: auto;
@@ -39,11 +40,12 @@
 }
 
 .caja-heroe {
-      padding: 3% 10%;
-      margin: 2% 2% 0.5% 2%;
+      padding: 4% 8%;
+      margin: 7% 2% 0.5% 2%;
       border-radius: 12px;
       background-color: #363636;
       color: #cecece;
+      box-shadow: inset -2px -2px 8px rgb(38 38 38);
 
       display: flex;
       flex-direction: row;
@@ -52,30 +54,36 @@
 }
 
 img {
-      width: 80%;
+      width: 160%;
+      margin-top: -36%;
+      margin-left: -25%;
 }
 
 .col1 {
-      width: 50%;
+      width: 70%;
 }
 
 .col2 {
-      width: 50%;
+      width: 30%;height: 180px;
 }
 
 .tareas1,
 .tareas2 {
       width: 50%;
       height: 100%;
-      background-color: hsl(0, 0%, 29%);
+      background-color: #363636;
       margin: 1.5% 2%;
       border-radius: 12px;
       color: aliceblue;
+      box-shadow: inset -1px -1px 12px rgb(38 38 38);
 
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+}
+ol{
+      height: 180px;
 }
 
 .tareas2 {
@@ -90,30 +98,40 @@ img {
       width: 100%;
       height: 100%;
       margin-right: 3.5%;
-      background-color: hsl(0, 0%, 32%);
+      background-color: #363636;
       border-radius: 12px;
       color: aliceblue;
+      box-shadow: inset -1px -1px 12px rgb(38 38 38);
 
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
 }
-
+.top{
+      height: 100px;
+}
+.centro{
+      height: 300px;
+}
+.pie{
+      height: 250px;
+}
 @media (max-width:800px) {
       .panelgeneral {
             flex-direction: column;
             width: 100%;
-            
+
       }
 
       .side-bar {
             width: 100%;
-            
+
             display: flex;
             padding: 2% 0;
       }
-      .barra-app{
+
+      .barra-app {
             margin: 0 1.5%;
       }
 }
