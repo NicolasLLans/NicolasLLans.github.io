@@ -58,7 +58,6 @@ li {
       border-radius: 12px;
 
       background-color: rgba(0, 0, 0, 0.2);
-      border: 1px solid #e2e2e2;
 
 }
 
@@ -71,7 +70,7 @@ li {
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      border: 1px solid #9b9b9b;
+      
 }
 
 .card-head {
@@ -98,7 +97,6 @@ i {
 
 .card-titulo {
       background-color: #4646468e;
-      border: 1px solid #e2e2e2;
       background-image: none;
       cursor: none;
 }
@@ -147,7 +145,6 @@ i {
 
       .card-titulo {
             background-color: #4646468e;
-            border: 1px solid #e2e2e2;
             background-image: none;
             cursor: none;
             width: 100%;
