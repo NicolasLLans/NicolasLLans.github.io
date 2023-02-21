@@ -40,7 +40,7 @@ li {
       width: 100%;
 }
 
-li:hover {
+li:hover{
 
       border-radius: 9px;
       background: linear-gradient(to right, rgb(181, 106, 196), rgb(149, 99, 230), rgb(94, 75, 146), rgb(92, 64, 124)), #f1f1f1;
@@ -48,16 +48,24 @@ li:hover {
       padding: 10% 6%;
 
 }
+.activo{
+      border-radius: 9px;
+      background: linear-gradient(to right, rgb(181, 106, 196), rgb(149, 99, 230), rgb(94, 75, 146), rgb(92, 64, 124)), #f1f1f1;
+      background-size: cover;
+      padding: 10% 6%;
+}
 
 a {
       text-decoration: none;
       color: rgb(247, 247, 247);
       font-weight: 600;
+      pointer-events: none;
 }
 
 i {
       margin: 0.2em 0.5em;
       color: rgb(247, 247, 247);
+      pointer-events: none;
 }
 
 @media (max-width:800px) {
@@ -101,6 +109,7 @@ i {
 @media (max-width:980px) {
       a {
             display: none;
+            pointer-events: none;
       }
 
       li {

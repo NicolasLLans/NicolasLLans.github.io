@@ -54,7 +54,7 @@ app-barranav {
 }
 
 .cuerpo {
-      height: 95%;
+      height: 100%;
       width: 97%;
       /*background-color: #232325;*/
       display: grid;

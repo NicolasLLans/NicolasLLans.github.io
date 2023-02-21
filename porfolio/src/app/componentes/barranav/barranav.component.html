@@ -2,7 +2,7 @@
       <img src="https://avatars.githubusercontent.com/u/94724163?v=4" alt="">
 </div>
 <ul>
-      <li  routerLink="panel"><i class="fa-solid fa-house"></i><a>panel general</a></li>
-      <li routerLink="proyectos"><i class="fa-solid fa-image"></i><a >proyectos</a></li>
-      <li routerLink="sobre-mi"><i class="fas fa-user"></i><a > sombre mi</a></li>
+      <li class="boton activo"(click)="aplicarEstilos($event.target)" routerLink="panel"><i class="fa-solid fa-house"></i><a>panel general</a></li>
+      <li class="boton"(click)="aplicarEstilos($event.target)" routerLink="proyectos"><i class="fa-solid fa-image"></i><a >proyectos</a></li>
+      <li class="boton"(click)="aplicarEstilos($event.target)" routerLink="sobre-mi"><i class="fas fa-user"></i><a > sombre mi</a></li>
 </ul>
