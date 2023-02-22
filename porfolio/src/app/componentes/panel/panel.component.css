@@ -94,11 +94,11 @@ img {
 }
 
 .cabecera {
-      width: 100%;
+      width: 90%;
       display: flex;
-      justify-content: flex-start;
       align-items: center;
-      margin-left: 15%;
+      /* margin-left: 15%; */
+      justify-content: space-between;
 }
 
 .centro-tarjeta {
@@ -110,7 +110,21 @@ img {
       align-items: center;
       margin-left: -3%;
       padding-bottom: 3em;
-      padding-top: 1em;
+}
+h3{
+      margin-left: 3%;
+}
+button{
+      background: #23232365;
+      border-radius: 5px;
+      border: 0px;
+      height: 23px;
+      cursor: pointer;
+}
+button:hover{
+      background:#232323;
+      border-radius: 5px;
+      border: 0px;
 }
 
 i {
@@ -213,6 +227,16 @@ li {
             font-weight: 500;
             font-size: 12px;
       }
+      h3{
+            font-size: 0.9em;
+            margin-left: 8%;
+      }
+      .cabecera{
+            width: 100%;
+      }
+      button{
+            margin-right: 5%;
+      }
 }
 
 @media (max-width:380px) {
@@ -227,5 +251,9 @@ li {
             width: 200%;
             margin-top: -38%;
             margin-left: -48px;
+      }
+
+      h3{
+            font-size: 0.6em;
       }
 }
