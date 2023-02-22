@@ -50,8 +50,9 @@ p {
       padding: 0% 3% 0% 3%;
       margin: 9% 2% 0.5% 2%;
       border-radius: 12px;
-      background-color: #363636;
-      color: #cecece;
+      background-color: #21262d;
+      border: 1px solid rgba(240,246,252,0.1);
+      color: #f7f7f7;
       box-shadow: inset -2px -2px 8px rgb(38 38 38);
 
       display: flex;
@@ -81,10 +82,11 @@ img {
 .tareas2 {
       width: 50%;
       height: 100%;
-      background-color: #363636;
+      background-color: #21262d;
+      border: 1px solid rgba(240,246,252,0.1);
       margin: 1.5% 2%;
       border-radius: 12px;
-      color: aliceblue;
+      color: #f7f7f7;
       box-shadow: inset -1px -1px 12px rgb(38 38 38);
 
       display: flex;
@@ -115,14 +117,14 @@ h3{
       margin-left: 3%;
 }
 button{
-      background: #23232365;
+      background:hsla(212,12%,18%,1) ;
       border-radius: 5px;
       border: 0px;
       height: 23px;
       cursor: pointer;
 }
 button:hover{
-      background:#232323;
+      background:rgb(21, 25, 27);
       border-radius: 5px;
       border: 0px;
 }
@@ -149,7 +151,7 @@ li {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-bottom: 1px solid #cecece;
+      border-bottom: 1px solid #f7f7f7;;
 }
 
 .barra-app {
@@ -157,7 +159,7 @@ li {
       height: 100%;
       /*background-color: #363636;*/
       border-radius: 12px;
-      color: aliceblue;
+      color: #f7f7f7;
       /*box-shadow: inset -1px -1px 12px rgb(38 38 38);*/
 
       display: flex;
@@ -181,8 +183,9 @@ li {
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      width: 100%;
-      background: #363636;
+      width: 99%;
+      background: #21262d;
+      border: 1px solid rgba(240,246,252,0.1);
       box-shadow: inset -1px -1px 12px rgb(38 38 38);
       padding-bottom: 3em;
       padding-top: 1em;
