@@ -16,6 +16,14 @@ img {
       border: 1px solid linear-gradient(to center, rgb(181, 106, 196), rgb(110, 90, 143), rgb(149, 99, 230), rgb(92, 64, 124));
 }
 
+.capa-de-img {
+      width: inherit;
+      height: inherit;
+      border-radius: inherit;
+      position: relative;
+      background-image: linear-gradient(359deg, rgb(0 0 0 / 90%), transparent 88%);
+}
+
 ul {
       margin: 50% 0 0 0;
       padding: 1%;
@@ -40,7 +48,7 @@ li {
       width: 100%;
 }
 
-li:hover{
+li:hover {
 
       border-radius: 9px;
       background: linear-gradient(to right, rgb(181, 106, 196), rgb(149, 99, 230), rgb(94, 75, 146), rgb(92, 64, 124)), #f1f1f1;
@@ -48,7 +56,8 @@ li:hover{
       padding: 10% 6%;
 
 }
-.activo{
+
+.activo {
       border-radius: 9px;
       background: linear-gradient(to right, rgb(181, 106, 196), rgb(149, 99, 230), rgb(94, 75, 146), rgb(92, 64, 124)), #f1f1f1;
       background-size: cover;
