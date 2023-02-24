@@ -8,3 +8,11 @@
       /* espacio entre elementos */
       height: 500px;
 }
+p{
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 1em;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+}
