@@ -30,7 +30,7 @@ ul {
       height: 350px;
       display: flex;
       flex-direction: column;
-      align-items: start;
+      align-items: flex-start;
       justify-content: center;
       border-top: 1px solid rgb(149, 99, 230);
 }
@@ -40,8 +40,8 @@ li {
       margin: 2px 0.2em;
       font-size: 12px;
       display: flex;
-      justify-content: start;
-      align-items: start;
+      justify-content: flex-start;
+      align-items: flex-start;
       font-weight: 400;
       cursor: pointer;
       padding: 10% 6%;
