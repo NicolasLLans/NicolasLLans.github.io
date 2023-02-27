@@ -81,7 +81,7 @@ app-barranav {
             width: 100%;
             background-color: #161b22;
             height: 10%;
-            order: 2;
+            order: 1;
             display: flex;
             justify-content: center;
             align-items: center;
